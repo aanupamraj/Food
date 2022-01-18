@@ -4,19 +4,19 @@
     src: url(../fonts/Raleway-Regular.ttf);
 }
 @font-face {
-    font-family: "railway medium";
+    font-family: "Railway medium";
     src: url(../fonts/Raleway-Medium.ttf);
 }
 @font-face {
-    font-family: "railway bold";
+    font-family: "Railway bold";
     src: url(../fonts/Raleway-Bold.ttf);
 }
 @font-face {
-    font-family: "railway semi-bold";
+    font-family: "Railway semi-bold";
     src: url(../fonts/Raleway-SemiBold.ttf);
 }
 @font-face {
-    font-family: "railway black";
+    font-family: "Railway black";
     src: url(../fonts/Raleway-Black.ttf);
 }
 
@@ -119,6 +119,26 @@ nav .navbar a:hover{
     background: var(--primary);
     color: var(--pure);
 }
+
+header.hero{
+    height: 500px;
+    background-image: url(../images/shopping.jpg);
+    background-repeat: no-repeat;
+    background-position: 0% 0%; */
+    overflow: hidden;
+    opacity: 0.3;
+    margin-top: -10px;
+}
+header.hero .welcome span{
+    font-family: "Railway-bold";
+    color: var(--secondary);
+    text-align: center;
+    margin-left: 120px;
+}
+header.hero .welcome img{
+    margin-left: 180px 0;
+}
+
 
 /*Utility class*/
 
